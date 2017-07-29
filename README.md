@@ -1,5 +1,7 @@
 The program can downlaod .jpg .gif .webm and .png
 
+It will dump the files to it's current location.
+
 How to use it:
 
 --start the program, wait a sec.
