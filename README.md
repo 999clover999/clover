@@ -1,7 +1,15 @@
 import requests
+
+
 from bs4 import BeautifulSoup
+
+
 import random
+
+
 import urllib
+
+
 import sys
 
 
@@ -119,6 +127,7 @@ def catalogSpider4():
 
 
 var1 = raw_input('Which one are we working with ? gif, jpg, webm or png ?: ')
+
 
 if var1 == 'jpg':
     
