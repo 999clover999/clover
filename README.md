@@ -1,7 +1,10 @@
 The program can downlaod .jpg .gif .webm and .png
 
 How to use it:
+
 --start the program, wait a sec.
+
+
 --now choose which one you want and input without " . ", so " .gif " is FALSE but " gif " is TRUE
 
 :::::. If you choose .jpg and there is a .gif file in thread it WILL WORK, but the file will be saved as .jpg, same with .png, If you post it it will even change to .gif
