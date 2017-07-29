@@ -22,7 +22,7 @@ here is proof:https://gyazo.com/a2dab5f614afa812dc62cacdf03e5176 ////// https://
 --Wait for the program to finish 
 
 
---pres Enter to close
+--press Enter to close
 
 
 --Move the files to another folder so it wont get messy, I would create specific folders for specific threads because name limit is 1000
