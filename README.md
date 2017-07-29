@@ -1,36 +1,86 @@
-The program can downlaod .jpg .gif .webm and .png
-
-It will dump the files to it's current location.
-
-How to use it:
-
---start the program, wait a sec.
+import requests
+from bs4 import BeautifulSoup
+import random
+import urllib
+import sys
 
 
---now choose which one you want and input without " . ", so " .gif " is FALSE but " gif " is TRUE
-
-:::::. If you choose .jpg and there is a .gif file in thread it WILL WORK, but the file will be saved as .jpg, same with .png, If you post it it will even change to .gif
-here is proof:https://gyazo.com/a2dab5f614afa812dc62cacdf03e5176 ////// https://gyazo.com/cfc78694b153d994866d73776e9321ff:::::.
 
 
---select board, input with / /, example: /c/
+def catalogSpider1():
+    var2 = raw_input('Please enter a name of board with / /: ')
+    var3 = raw_input('Please enter an ID of thread, the numbers at the end of the thread: ')
+    kek = 'https://boards.4chan.org' + str(var2)
+    url = str(kek) + 'thread/' + str(var3)
+    source_code = requests.get(url)
+    plain_text = source_code.text
+    soup = BeautifulSoup(plain_text, "html.parser")
+    for link in soup.findAll('a', {'class': 'fileThumb'}):
+        href = 'https:' + link.get('href')
+        name = random.randrange(1, 1000)
+        full_name = str(name) + '.jpg'
+        urllib.urlretrieve(href, full_name)
 
 
---now select thread ID, that's the last part of the link, example: https://boards.4chan.org/c/thread/2932664 YOU WILL ENTER    2932664  
+def catalogSpider2():
+    var2 = raw_input('Please enter a name of board with / /: ')
+    var3 = raw_input('Please enter an ID of thread, the numbers at the end of the thread: ')
+    kek = 'https://boards.4chan.org' + str(var2)
+    url = str(kek) + 'thread/' + str(var3)
+    source_code = requests.get(url)
+    plain_text = source_code.text
+    soup = BeautifulSoup(plain_text, "html.parser")
+    for link in soup.findAll('a', {'class': 'fileThumb'}):
+        href = 'https:' + link.get('href')
+        name = random.randrange(1, 1000)
+        full_name = str(name) + '.png'
+        urllib.urlretrieve(href, full_name)
+
+def catalogSpider3():
+        var2 = raw_input('Please enter a name of board with / /: ')
+        var3 = raw_input('Please enter an ID of thread, the numbers at the end of the thread: ')
+        kek = 'https://boards.4chan.org' + str(var2)
+        url = str(kek) + 'thread/' + str(var3)
+        source_code = requests.get(url)
+        plain_text = source_code.text
+        soup = BeautifulSoup(plain_text, "html.parser")
+        for link in soup.findAll('a', {'class': 'fileThumb'}):
+            href = 'https:' + link.get('href')
+            name = random.randrange(1, 1000)
+            full_name = str(name) + '.gif'
+            urllib.urlretrieve(href, full_name)
 
 
---Wait for the program to finish 
+def catalogSpider4():
+    var2 = raw_input('Please enter a name of board with / /: ')
+    var3 = raw_input('Please enter an ID of thread, the numbers at the end of the thread: ')
+    kek = 'https://boards.4chan.org' + str(var2)
+    url = str(kek) + 'thread/' + str(var3)
+    source_code = requests.get(url)
+    plain_text = source_code.text
+    soup = BeautifulSoup(plain_text, "html.parser")
+    for link in soup.findAll('a', {'class': 'fileThumb'}):
+        href = 'https:' + link.get('href')
+        name = random.randrange(1, 1000)
+        full_name = str(name) + '.webm'
+        urllib.urlretrieve(href, full_name)
 
 
---press Enter to close
 
 
---Move the files to another folder so it wont get messy, I would create specific folders for specific threads because name limit is 1000
+var1 = raw_input('Which one are we working with ? gif, jpg, webm or png ?: ')
+if var1 == 'jpg':
+    catalogSpider1()
+elif var1 == 'png':
+    catalogSpider2()
+elif var1 == 'gif':
+    catalogSpider3()
+elif var1 == 'webm':
+    catalogSpider4()
+else:sys.exit()
 
-And the MOST IMPORTANT THING 
 
-Feel free to bully me I am shit at everything I do and I enjoy when others bully me (unironically)
-https://twitter.com/CDHKIMIW
+print 'You should move the hentai you just got to another folder.'
+raw_input("press ENTER to close")
 
 
-icon from http://s1117.photobucket.com/user/leftsidebrains/library/?sort=3&page=1
