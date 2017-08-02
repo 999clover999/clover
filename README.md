@@ -1,3 +1,4 @@
+Put the .exe in a folder you want the images in.
 
 How to use it:
 
@@ -8,8 +9,6 @@ How to use it:
 --now select thread ID, that's the last part of the link, example: https://boards.4chan.org/c/thread/2932664 ENTER 2932664  
 
 --Wait for the program to finish 
-
-Put the .exe in a folder you want the images in.
 
 And the MOST IMPORTANT THING 
 Bully me in every possible way I like it(unironically)
