@@ -9,7 +9,7 @@ How to use it:
 
 --Wait for the program to finish 
 
---pres Enter to close
+--press Enter to close
 
 And the MOST IMPORTANT THING 
 Bully me in every possible way I like it(unironically)
