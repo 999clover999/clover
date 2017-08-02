@@ -1,7 +1,7 @@
 
 How to use it:
 
--start the program, wait a sec.
+--start the program, wait a sec.
 
 --select board, input with / /, example: /c/
 
@@ -15,4 +15,4 @@ And the MOST IMPORTANT THING
 Bully me in every possible way I like it(unironically)
 https://twitter.com/CDHKIMIW
 
-icon source::http://photobucket.com/gallery/user/leftsidebrains/media/cGF0aDpJY29uTWVyZ2UvNy00LnBuZw==/?ref=
+icon source: http://photobucket.com/gallery/user/leftsidebrains/media/cGF0aDpJY29uTWVyZ2UvNy00LnBuZw==/?ref=
