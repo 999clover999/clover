@@ -5,11 +5,9 @@ How to use it:
 
 --select board, input with / /, example: /c/
 
---now select thread ID, that's the last part of the link, example: https://boards.4chan.org/c/thread/2932664 YOU WILL ENTER 2932664  
+--now select thread ID, that's the last part of the link, example: https://boards.4chan.org/c/thread/2932664 ENTER 2932664  
 
 --Wait for the program to finish 
-
---press Enter to close
 
 And the MOST IMPORTANT THING 
 Bully me in every possible way I like it(unironically)
