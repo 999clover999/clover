@@ -9,6 +9,8 @@ How to use it:
 
 --Wait for the program to finish 
 
+Put the .exe in a folder you want the images in.
+
 And the MOST IMPORTANT THING 
 Bully me in every possible way I like it(unironically)
 https://twitter.com/CDHKIMIW
