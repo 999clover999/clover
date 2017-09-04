@@ -16,14 +16,14 @@ def catalogSpider():
     for link in soup.findAll('a', {'class': 'fileThumb'}):
         href = 'https:' + link.get('href')
         hreff = href[-10:]
-        print href
+        print href                            #Debug stuff
         name = random.randrange(1, 1000000)
         full_name = str(name) + hreff
         print full_name
         urllib.urlretrieve(href, full_name)
 
 
-topkek = True
+topkek = True                                   #whiel True is enough
 while topkek == True:
  catalogSpider()
 
