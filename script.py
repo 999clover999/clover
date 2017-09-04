@@ -23,7 +23,7 @@ def catalogSpider():
         urllib.urlretrieve(href, full_name)
 
 
-topkek = True                                   #whiel True is enough
+topkek = True                                   #while True is enough
 while topkek == True:
  catalogSpider()
 
