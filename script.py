@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import random
 import urllib
-import os
+import os                                       #?????
 
 
 def catalogSpider():
