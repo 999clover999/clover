@@ -16,7 +16,7 @@ def catalogSpider():
     for link in soup.findAll('a', {'class': 'fileThumb'}):
         href = 'https:' + link.get('href')
         hreff = href[-10:]
-        print href                            #Debug stuff
+        print href                            #Debug stuff, also so you know it's doing something
         name = random.randrange(1, 1000000)
         full_name = str(name) + hreff
         print full_name
