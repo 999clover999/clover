@@ -10,8 +10,6 @@ How to use it:
 
 --Wait for the program to finish 
 
-And the MOST IMPORTANT THING 
-Bully me in every possible way I like it(unironically)
-https://twitter.com/CDHKIMIW
+
 
 icon source: http://photobucket.com/gallery/user/leftsidebrains/media/cGF0aDpJY29uTWVyZ2UvNy00LnBuZw==/?ref=
