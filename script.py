@@ -1,30 +1,36 @@
 import requests
 from bs4 import BeautifulSoup
 import random
-import urllib
-import os                                       #?????
+import urllib.request
+
 
 
 def catalogSpider():
-    var2 = raw_input('Please enter a name of board with / /: ')
-    var3 = raw_input('Please enter thred ID: ')
-    kek = 'https://boards.4chan.org' + str(var2)
-    url = str(kek) + 'thread/' + str(var3)
+    print("\n")
+    print("--- IT DOESN'T MATTER WHICH ONE YOU INPUT FOR NOW (05/01/2019) THIS INPUT IS THERE TO CATCH ANY ERRORS IN FUTURE ---\n")
+    
+    whichBoard = input("Please enter which board 4Chan or 4Channel: ")
+    boardVar = input('Please enter a name of board with / /: ')
+    ID = input('Please enter thred ID: ')
+    if whichBoard == "4Chan":
+        finalUrl = 'https://boards.4chan.org' + str(boardVar)
+    else:
+        finalUrl = 'https://boards.4channel.org' + str(boardVar)
+    url = str(finalUrl) + 'thread/' + str(ID)
     source_code = requests.get(url)
     plain_text = source_code.text
     soup = BeautifulSoup(plain_text,'html.parser')
     for link in soup.findAll('a', {'class': 'fileThumb'}):
         href = 'https:' + link.get('href')
-        hreff = href[-10:]
-        print href                            #Debug stuff, also so you know it's doing something
+        imageName = href[-10:]
+        print (href)
+        print(imageName) #Debug stuff, also so you know it's doing something
         name = random.randrange(1, 1000000)
-        full_name = str(name) + hreff
-        print full_name
-        urllib.urlretrieve(href, full_name)
+        full_name = str(name) + imageName
+        print (full_name)
+        urllib.request.urlretrieve(href, full_name)
 
 
-topkek = True                                   #while True is enough
-while topkek == True:
+                               
+while True:
  catalogSpider()
-
-
