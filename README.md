@@ -1,3 +1,7 @@
+
+DOESN'T WORK ON 4CHANNEL
+
+
 Put the .exe in a folder you want the images in.
 
 How to use it:
