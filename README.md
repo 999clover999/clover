@@ -1,5 +1,5 @@
 
-WORKS ON BOTH 4Chan and 4CHannel
+WORKS ON BOTH 4Chan and 4Channel
 
 Put the .exe in a folder you want the images in! Don't put it on desktop or it will download all the files there.
 
