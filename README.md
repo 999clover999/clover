@@ -1,12 +1,14 @@
 
-DOESN'T WORK ON 4CHANNEL
-
+WORKS ON BOTH 4Chan and 4CHannel
 
 Put the .exe in a folder you want the images in.
 
 How to use it:
 
 --start the program, wait a sec.
+
+--choose 4Chan or 4Channel (with big C)
+!!! IT DOESN'T MATTER WHICH ONE YOU INPUT FOR NOW (05/01/2019) THIS INPUT IS THERE TO CATCH ANY ERRORS IN FUTURE !!!
 
 --select board, input with / /, example: /c/
 
